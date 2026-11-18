@@ -923,3 +923,23 @@ These extras install dependencies required for specific evaluation tasks:
   url          = {https://zenodo.org/records/12608602}
 }
 ```
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/portfolio-notes-2026-11-13` | 2 ahead / 3 behind | Fork-aware portfolio notes, activity log, skills notes, company-fit notes, contributor notes and feature upgrade plan |
+| `docs/project-status-2026-11-16-lm-evaluation-harness` | 0 / 2 | No unique commits relative to current `main`; branch is behind |
+| `docs/project-status-2026-11-16-lm-evaluation-harness-review2` | 1 ahead / 0 behind | Project status snapshot: `PROJECT_STATUS.md`; branch is ahead of current `main` |
+
+### Open pull requests observed during this audit
+
+- [PR #2 — fork-aware project status snapshot](https://github.com/Gitcoder12/lm-evaluation-harness/pull/2)
+- [PR #1 — attribution-safe portfolio notes](https://github.com/Gitcoder12/lm-evaluation-harness/pull/1)
+
+**Fork note:** This is a fork of an upstream project. Keep original upstream attribution and clearly separate local modifications from upstream functionality. Verification here is limited to Git metadata and changed paths.
