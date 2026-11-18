@@ -923,3 +923,10 @@ These extras install dependencies required for specific evaluation tasks:
   url          = {https://zenodo.org/records/12608602}
 }
 ```
+
+---
+
+## Examples Used
+- Evaluating a language model on a multiple-choice knowledge benchmark
+- Comparing few-shot and zero-shot prompting
+- Reproducing model scores across a fixed task suite
