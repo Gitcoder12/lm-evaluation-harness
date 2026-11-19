@@ -930,3 +930,21 @@ These extras install dependencies required for specific evaluation tasks:
 - Evaluating a language model on a multiple-choice knowledge benchmark
 - Comparing few-shot and zero-shot prompting
 - Reproducing model scores across a fixed task suite
+
+
+---
+
+## Upstream Relationship and Comparison
+
+This repository is a fork of [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), the canonical open-source evaluation harness for language models. It should be understood as an upstream-derived copy, not a separate evaluation framework.
+
+### Current fork status (checked 2026-11-19)
+- Fork-only commits: **4**, consisting of documentation/audit guidance, an initial fork-status note, a revert of that status file, and README examples.
+- Upstream commits not present in this fork: **0** at the comparison point; the fork is ahead by four documentation-only commits.
+- No independent evaluation tasks, metrics, model adapters or benchmark capability is established by those fork-only commits.
+
+### What this fork adds
+The current local contribution is documentation and repository-maintenance guidance. The upstream project remains the source of truth for evaluation functionality.
+
+### Recommendation
+Preserve upstream attribution and licence notices. Use the upstream project for actual evaluation features; keep this fork only for a clearly scoped experiment or proposed contribution. If custom evaluation tasks or adapters are added later, document and test them as the fork's actual differentiating work.
